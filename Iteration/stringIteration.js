@@ -6,4 +6,4 @@ for (var i = 0; i < str.length; i++){
 }
 }
 
-stringLooping("I am a string.")
+stringLooping("I am a string.");
