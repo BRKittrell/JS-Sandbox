@@ -3,4 +3,4 @@ var vehicleObj = {
     model: "1500",
     color: "black",
 }
-console.log(vehicleObj.make)
+console.log(vehicleObj.model)
