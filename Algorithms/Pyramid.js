@@ -9,7 +9,7 @@ function pyramid(num) {
         arr.push(hash)
         hash = hash + '#'
     }
-    return arr
+    return arr;
 
 }
 
