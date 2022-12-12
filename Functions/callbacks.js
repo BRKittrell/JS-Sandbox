@@ -1,6 +1,6 @@
 /*The benefit of callback functions:
 - Developing asynchronous JS
-- JS is evaluated from the top down
+- JS is evaluated from the top down; doesn't stop code from running
 */
 
 function fox() {
@@ -9,8 +9,8 @@ function fox() {
 }
 
 /*This is the callback function*/
-function whatDoesTheFoxSay(action) {
-  action();
+function whatDoesTheFoxSay(foxSays) {
+  foxSays();
 }
 
 whatDoesTheFoxSay(fox);
